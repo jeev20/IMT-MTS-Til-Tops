@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8d409560ccdc493d938fd6b82fcc890f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8d409560ccdc493d938fd6b82fcc890f" ></div>
+        
+</body>
+<script>    
+    
+            var map_8d409560ccdc493d938fd6b82fcc890f = L.map(
+                "map_8d409560ccdc493d938fd6b82fcc890f",
+                {
+                    center: [63.4316705, 10.3960588],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ec8e28cb737d4b6b9d03c1558bcddd6a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var marker_6875cb5d39a5483c92636a35ef823802 = L.marker(
+                [63.44497310000001, 10.2599495],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_c410a666abca461b9df0376512d3e9a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6875cb5d39a5483c92636a35ef823802.setIcon(icon_c410a666abca461b9df0376512d3e9a4);
+        
+    
+        var popup_43a1be06ca4745e79f67d4a037a113fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec5c176a35a747bca5eff15cdb57ad9c = $(`<div id="html_ec5c176a35a747bca5eff15cdb57ad9c" style="width: 100.0%; height: 100.0%;"><h4>Svartdalsfjellet - IMT Topps 2019</h4>    <h6>The elevation is <i>362.0 meters</i></h6>   The terrain is Forest area.   <h6>Peaked? : Yes</h6></div>`)[0];
+            popup_43a1be06ca4745e79f67d4a037a113fc.setContent(html_ec5c176a35a747bca5eff15cdb57ad9c);
+        
+
+        marker_6875cb5d39a5483c92636a35ef823802.bindPopup(popup_43a1be06ca4745e79f67d4a037a113fc)
+        ;
+
+        
+    
+    
+            var marker_9a36123ea10f4e37bfb8838dcb05868c = L.marker(
+                [63.4383751, 10.2486093],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_383bdc39f69a497383942753698506f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9a36123ea10f4e37bfb8838dcb05868c.setIcon(icon_383bdc39f69a497383942753698506f0);
+        
+    
+        var popup_80d7a2fe0e35420298f3a007415d30e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f593d40b1cfe453ab0c79e40b0d50697 = $(`<div id="html_f593d40b1cfe453ab0c79e40b0d50697" style="width: 100.0%; height: 100.0%;"><h4>Stadsheia - IMT Topps 2019</h4>    <h6>The elevation is <i>444.1 meters</i></h6>   The terrain is Open area.   <h6>Peaked? : Yes</h6></div>`)[0];
+            popup_80d7a2fe0e35420298f3a007415d30e9.setContent(html_f593d40b1cfe453ab0c79e40b0d50697);
+        
+
+        marker_9a36123ea10f4e37bfb8838dcb05868c.bindPopup(popup_80d7a2fe0e35420298f3a007415d30e9)
+        ;
+
+        
+    
+    
+            var marker_ccaa7bdc4e574f908a3b66085825723e = L.marker(
+                [63.42363520000001, 10.2067276],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_753a22a1e6294597af56987c3b5890b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ccaa7bdc4e574f908a3b66085825723e.setIcon(icon_753a22a1e6294597af56987c3b5890b0);
+        
+    
+        var popup_4c733319c26444efb20056f67dc4f108 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa12ed04290549f684cd2b358ce39351 = $(`<div id="html_aa12ed04290549f684cd2b358ce39351" style="width: 100.0%; height: 100.0%;"><h4>Elsetheia - IMT Topps 2019</h4>    <h6>The elevation is <i>427.0 meters</i></h6>   The terrain is Open area.   <h6>Peaked? : Yes</h6></div>`)[0];
+            popup_4c733319c26444efb20056f67dc4f108.setContent(html_aa12ed04290549f684cd2b358ce39351);
+        
+
+        marker_ccaa7bdc4e574f908a3b66085825723e.bindPopup(popup_4c733319c26444efb20056f67dc4f108)
+        ;
+
+        
+    
+    
+            var marker_4da4bc1586f2419ba20fab46ed74c375 = L.marker(
+                [63.4139952, 10.2217645],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_cb681b2e782c4edfadefe9a4d9bd28ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4da4bc1586f2419ba20fab46ed74c375.setIcon(icon_cb681b2e782c4edfadefe9a4d9bd28ec);
+        
+    
+        var popup_5941071d465c42e7958061b8118c8acb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f77a254c1b745f1b4fce94a1a05ea4f = $(`<div id="html_2f77a254c1b745f1b4fce94a1a05ea4f" style="width: 100.0%; height: 100.0%;"><h4>Rundheia - IMT Topps 2019</h4>    <h6>The elevation is <i>472.9 meters</i></h6>   The terrain is Open area.   <h6>Peaked? : Yes</h6></div>`)[0];
+            popup_5941071d465c42e7958061b8118c8acb.setContent(html_2f77a254c1b745f1b4fce94a1a05ea4f);
+        
+
+        marker_4da4bc1586f2419ba20fab46ed74c375.bindPopup(popup_5941071d465c42e7958061b8118c8acb)
+        ;
+
+        
+    
+    
+            var marker_e28be29b17af4f4da3e986a46d3398ff = L.marker(
+                [63.40648510000001, 10.3027384],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_13212207f98c49beb3336e4551cb6546 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e28be29b17af4f4da3e986a46d3398ff.setIcon(icon_13212207f98c49beb3336e4551cb6546);
+        
+    
+        var popup_0f67dafc32984ad4b653c54c4d55ccbc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74150abe0ee1459e93222a4383b4c004 = $(`<div id="html_74150abe0ee1459e93222a4383b4c004" style="width: 100.0%; height: 100.0%;"><h4>Solemsåsen  - IMT Topps 2019</h4>    <h6>The elevation is <i>336.0 meters</i></h6>   The terrain is Forest area.   <h6>Peaked? : No</h6></div>`)[0];
+            popup_0f67dafc32984ad4b653c54c4d55ccbc.setContent(html_74150abe0ee1459e93222a4383b4c004);
+        
+
+        marker_e28be29b17af4f4da3e986a46d3398ff.bindPopup(popup_0f67dafc32984ad4b653c54c4d55ccbc)
+        ;
+
+        
+    
+    
+            var marker_0d4a293c75be4a3ebd5e22a27a0ba975 = L.marker(
+                [63.56700060000001, 10.3029382],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_82f7206aef1e419a9707411aa071d4df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0d4a293c75be4a3ebd5e22a27a0ba975.setIcon(icon_82f7206aef1e419a9707411aa071d4df);
+        
+    
+        var popup_a405a4a51fdb4b8f86fd6b562bab1387 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2d4434b6445477cb3c418d30baaa1ea = $(`<div id="html_a2d4434b6445477cb3c418d30baaa1ea" style="width: 100.0%; height: 100.0%;"><h4>Munken - IMT Topps 2019</h4>    <h6>The elevation is <i>502.0 meters</i></h6>   The terrain is Open area.   <h6>Peaked? : No</h6></div>`)[0];
+            popup_a405a4a51fdb4b8f86fd6b562bab1387.setContent(html_a2d4434b6445477cb3c418d30baaa1ea);
+        
+
+        marker_0d4a293c75be4a3ebd5e22a27a0ba975.bindPopup(popup_a405a4a51fdb4b8f86fd6b562bab1387)
+        ;
+
+        
+    
+    
+            var marker_e61d6b23dd604e80ac26fe8942f32f47 = L.marker(
+                [63.30632979999999, 10.937273],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_5fc7e8d35c56403ea2ec23f75178d11e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e61d6b23dd604e80ac26fe8942f32f47.setIcon(icon_5fc7e8d35c56403ea2ec23f75178d11e);
+        
+    
+        var popup_7dbc180602e241fe9287415711b12c6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c310927950e14b8aaa4bada3c82c8ba0 = $(`<div id="html_c310927950e14b8aaa4bada3c82c8ba0" style="width: 100.0%; height: 100.0%;"><h4>Vennafjellet - IMT Topps 2019</h4>    <h6>The elevation is <i>664.3 meters</i></h6>   The terrain is Open area.   <h6>Peaked? : Yes</h6></div>`)[0];
+            popup_7dbc180602e241fe9287415711b12c6b.setContent(html_c310927950e14b8aaa4bada3c82c8ba0);
+        
+
+        marker_e61d6b23dd604e80ac26fe8942f32f47.bindPopup(popup_7dbc180602e241fe9287415711b12c6b)
+        ;
+
+        
+    
+    
+            var marker_fcb708ea37754e42994c598fb4e178f5 = L.marker(
+                [63.3491744, 11.2481911],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_366a2ad0cb174d238c5dcf42e8341f08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fcb708ea37754e42994c598fb4e178f5.setIcon(icon_366a2ad0cb174d238c5dcf42e8341f08);
+        
+    
+        var popup_0bc67a7c506846269b271a3555f8050a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a85223513fa48029418d5b4d227454c = $(`<div id="html_9a85223513fa48029418d5b4d227454c" style="width: 100.0%; height: 100.0%;"><h4>Kvitfjellet/Kvitfjellhytta - IMT Topps 2019</h4>    <h6>The elevation is <i>565.1 meters</i></h6>   The terrain is Open area.   <h6>Peaked? : No</h6></div>`)[0];
+            popup_0bc67a7c506846269b271a3555f8050a.setContent(html_9a85223513fa48029418d5b4d227454c);
+        
+
+        marker_fcb708ea37754e42994c598fb4e178f5.bindPopup(popup_0bc67a7c506846269b271a3555f8050a)
+        ;
+
+        
+    
+    
+            var marker_e81040e2528545de971b601a7e9610ac = L.marker(
+                [63.36076020000001, 10.4691744],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_9c75059690664362b60dd188feee5041 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e81040e2528545de971b601a7e9610ac.setIcon(icon_9c75059690664362b60dd188feee5041);
+        
+    
+        var popup_5ba9e6017f71483aac7d6239d0b32eae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_808c5fb5ebd549fe93b92081bb9017cb = $(`<div id="html_808c5fb5ebd549fe93b92081bb9017cb" style="width: 100.0%; height: 100.0%;"><h4>Sæteråsen  - IMT Topps 2019</h4>    <h6>The elevation is <i>375.2 meters</i></h6>   The terrain is Forest area.   <h6>Peaked? : No</h6></div>`)[0];
+            popup_5ba9e6017f71483aac7d6239d0b32eae.setContent(html_808c5fb5ebd549fe93b92081bb9017cb);
+        
+
+        marker_e81040e2528545de971b601a7e9610ac.bindPopup(popup_5ba9e6017f71483aac7d6239d0b32eae)
+        ;
+
+        
+    
+    
+            var marker_1fe4504a0dbb444998c40d81952fdee6 = L.marker(
+                [63.3767636, 10.7259877],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_20ca5d6ce2664a56a2edd9a9c76699cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1fe4504a0dbb444998c40d81952fdee6.setIcon(icon_20ca5d6ce2664a56a2edd9a9c76699cc);
+        
+    
+        var popup_28742203906c4c47b116c2266e4b49bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_339d3ee9fd4b4dd78dd6206bdb2eb3ff = $(`<div id="html_339d3ee9fd4b4dd78dd6206bdb2eb3ff" style="width: 100.0%; height: 100.0%;"><h4>Engeseterberga - IMT Topps 2019</h4>    <h6>The elevation is <i>324.6 meters</i></h6>   The terrain is Forest area.   <h6>Peaked? : Yes</h6></div>`)[0];
+            popup_28742203906c4c47b116c2266e4b49bb.setContent(html_339d3ee9fd4b4dd78dd6206bdb2eb3ff);
+        
+
+        marker_1fe4504a0dbb444998c40d81952fdee6.bindPopup(popup_28742203906c4c47b116c2266e4b49bb)
+        ;
+
+        
+    
+    
+            var marker_b5080702fc664cfdac2424364c8c5c51 = L.marker(
+                [63.43184463, 10.43244375],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_3323a44552434be4894e4ac0232e2766 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b5080702fc664cfdac2424364c8c5c51.setIcon(icon_3323a44552434be4894e4ac0232e2766);
+        
+    
+        var popup_b591e09c897a4585aead9877f3928d02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00e2130a0ace433b8c50eb723a8ca680 = $(`<div id="html_00e2130a0ace433b8c50eb723a8ca680" style="width: 100.0%; height: 100.0%;"><h4>Kuhaugen - IMT Topps 2018</h4>    <h6>The elevation is <i>116.6 meters</i></h6>   The terrain is Forest area.   <h6>Peaked? : No</h6></div>`)[0];
+            popup_b591e09c897a4585aead9877f3928d02.setContent(html_00e2130a0ace433b8c50eb723a8ca680);
+        
+
+        marker_b5080702fc664cfdac2424364c8c5c51.bindPopup(popup_b591e09c897a4585aead9877f3928d02)
+        ;
+
+        
+    
+    
+            var marker_ca59dbc04e6d4fb588a44e3e30720445 = L.marker(
+                [63.39411983, 10.49865767],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_7d43f001914f4a1ebeba0f1cc78ce177 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ca59dbc04e6d4fb588a44e3e30720445.setIcon(icon_7d43f001914f4a1ebeba0f1cc78ce177);
+        
+    
+        var popup_19fedf5f1704424d8b7ad60a4299d9fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fddc031b56cd486f8acdf260db74e77e = $(`<div id="html_fddc031b56cd486f8acdf260db74e77e" style="width: 100.0%; height: 100.0%;"><h4>Nymånen - IMT Topps 2018</h4>    <h6>The elevation is <i>345.1 meters</i></h6>   The terrain is Forest area.   <h6>Peaked? : Yes</h6></div>`)[0];
+            popup_19fedf5f1704424d8b7ad60a4299d9fd.setContent(html_fddc031b56cd486f8acdf260db74e77e);
+        
+
+        marker_ca59dbc04e6d4fb588a44e3e30720445.bindPopup(popup_19fedf5f1704424d8b7ad60a4299d9fd)
+        ;
+
+        
+    
+    
+            var marker_b1e00f653a564857a33bdad2578e9388 = L.marker(
+                [63.38223076, 10.48526307],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_7c4d06356c33473eaed36eea9ed1796e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b1e00f653a564857a33bdad2578e9388.setIcon(icon_7c4d06356c33473eaed36eea9ed1796e);
+        
+    
+        var popup_e50f5258094e42d6a7dc23ad8d10dc51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04a93e6b38c14088903f8e3c1f7873dc = $(`<div id="html_04a93e6b38c14088903f8e3c1f7873dc" style="width: 100.0%; height: 100.0%;"><h4>Tomsetåsen - IMT Topps 2018</h4>    <h6>The elevation is <i>411.8 meters</i></h6>   The terrain is Forest area.   <h6>Peaked? : No</h6></div>`)[0];
+            popup_e50f5258094e42d6a7dc23ad8d10dc51.setContent(html_04a93e6b38c14088903f8e3c1f7873dc);
+        
+
+        marker_b1e00f653a564857a33bdad2578e9388.bindPopup(popup_e50f5258094e42d6a7dc23ad8d10dc51)
+        ;
+
+        
+    
+    
+            var marker_423e997f6c2f4326aa104fa1ad9dbfb6 = L.marker(
+                [63.41262011, 10.19082654],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_a8901efab6b64831ba9589b69bd04bb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_423e997f6c2f4326aa104fa1ad9dbfb6.setIcon(icon_a8901efab6b64831ba9589b69bd04bb9);
+        
+    
+        var popup_14955d44bef6427fb461790163fd5c2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eaf6a4fb46a944d499ab3d12bf380955 = $(`<div id="html_eaf6a4fb46a944d499ab3d12bf380955" style="width: 100.0%; height: 100.0%;"><h4>Bosbergheia - IMT Topps 2018</h4>    <h6>The elevation is <i>538.6 meters</i></h6>   The terrain is Open area.   <h6>Peaked? : Yes</h6></div>`)[0];
+            popup_14955d44bef6427fb461790163fd5c2c.setContent(html_eaf6a4fb46a944d499ab3d12bf380955);
+        
+
+        marker_423e997f6c2f4326aa104fa1ad9dbfb6.bindPopup(popup_14955d44bef6427fb461790163fd5c2c)
+        ;
+
+        
+    
+    
+            var marker_dc41b2786f8446028c96d6e6a54691dc = L.marker(
+                [63.38196983, 10.19280449],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_bb970062525a4573ba0bae8ce7ec6451 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dc41b2786f8446028c96d6e6a54691dc.setIcon(icon_bb970062525a4573ba0bae8ce7ec6451);
+        
+    
+        var popup_14c3284a4f67415f9aa0acd437fcdf38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29633807fd5f429d8b6d9beb78d7317a = $(`<div id="html_29633807fd5f429d8b6d9beb78d7317a" style="width: 100.0%; height: 100.0%;"><h4>Bjørnaråsen - IMT Topps 2018</h4>    <h6>The elevation is <i>380.4 meters</i></h6>   The terrain is Forest area.   <h6>Peaked? : No</h6></div>`)[0];
+            popup_14c3284a4f67415f9aa0acd437fcdf38.setContent(html_29633807fd5f429d8b6d9beb78d7317a);
+        
+
+        marker_dc41b2786f8446028c96d6e6a54691dc.bindPopup(popup_14c3284a4f67415f9aa0acd437fcdf38)
+        ;
+
+        
+    
+    
+            var marker_07e1007ed9a54e318da8076c6bb7eeba = L.marker(
+                [63.45099221, 10.26836282],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_626ebd65e1f34267b7e8c460ab493b06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_07e1007ed9a54e318da8076c6bb7eeba.setIcon(icon_626ebd65e1f34267b7e8c460ab493b06);
+        
+    
+        var popup_9b25b0eb5a76401994446f4ab7b7fc76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96df5920ae9843f2bbf3808a67360da5 = $(`<div id="html_96df5920ae9843f2bbf3808a67360da5" style="width: 100.0%; height: 100.0%;"><h4>Olavsspranget - IMT Topps 2018</h4>    <h6>The elevation is <i>195.0 meters</i></h6>   The terrain is Forest area.   <h6>Peaked? : No</h6></div>`)[0];
+            popup_9b25b0eb5a76401994446f4ab7b7fc76.setContent(html_96df5920ae9843f2bbf3808a67360da5);
+        
+
+        marker_07e1007ed9a54e318da8076c6bb7eeba.bindPopup(popup_9b25b0eb5a76401994446f4ab7b7fc76)
+        ;
+
+        
+    
+    
+            var marker_ef2dbd94ecaf4256b80399090530a9bc = L.marker(
+                [63.33778926, 10.6961936],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_7fcfbabf17fd48b29c0c68bed1e78cf1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ef2dbd94ecaf4256b80399090530a9bc.setIcon(icon_7fcfbabf17fd48b29c0c68bed1e78cf1);
+        
+    
+        var popup_4e65125471a940aa855be11ada4ed96c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_295e396cfac1402c9b4db516a26dbf09 = $(`<div id="html_295e396cfac1402c9b4db516a26dbf09" style="width: 100.0%; height: 100.0%;"><h4>Jervfjellet - IMT Topps 2018</h4>    <h6>The elevation is <i>500.0 meters</i></h6>   The terrain is Open area.   <h6>Peaked? : No</h6></div>`)[0];
+            popup_4e65125471a940aa855be11ada4ed96c.setContent(html_295e396cfac1402c9b4db516a26dbf09);
+        
+
+        marker_ef2dbd94ecaf4256b80399090530a9bc.bindPopup(popup_4e65125471a940aa855be11ada4ed96c)
+        ;
+
+        
+    
+    
+            var marker_91b15f0ebf5b403483107271ef5d229a = L.marker(
+                [63.29831298, 10.6432091],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_c5129e155a9746a9b700ce04f74cc65a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_91b15f0ebf5b403483107271ef5d229a.setIcon(icon_c5129e155a9746a9b700ce04f74cc65a);
+        
+    
+        var popup_45bf4282a5ba464d997dac0cc6cff2e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca882beea6a44cb0948dad4cba73796b = $(`<div id="html_ca882beea6a44cb0948dad4cba73796b" style="width: 100.0%; height: 100.0%;"><h4>Langåsen - IMT Topps 2018</h4>    <h6>The elevation is <i>515.7 meters</i></h6>   The terrain is Forest area.   <h6>Peaked? : No</h6></div>`)[0];
+            popup_45bf4282a5ba464d997dac0cc6cff2e9.setContent(html_ca882beea6a44cb0948dad4cba73796b);
+        
+
+        marker_91b15f0ebf5b403483107271ef5d229a.bindPopup(popup_45bf4282a5ba464d997dac0cc6cff2e9)
+        ;
+
+        
+    
+    
+            var marker_9b3393009d8b43f3a992f3479b0cb11f = L.marker(
+                [63.31585379999999, 10.2100195],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_7d97d015b46445d282a67fc4f92a6395 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9b3393009d8b43f3a992f3479b0cb11f.setIcon(icon_7d97d015b46445d282a67fc4f92a6395);
+        
+    
+        var popup_aff385a92d6949c49ed0acdf9a548dad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a79515eb5f02424f8c180b01a098d36b = $(`<div id="html_a79515eb5f02424f8c180b01a098d36b" style="width: 100.0%; height: 100.0%;"><h4>Øyberga–Kvennberget - IMT Topps 2018</h4>    <h6>The elevation is <i>275.5 meters</i></h6>   The terrain is Forest area.   <h6>Peaked? : No</h6></div>`)[0];
+            popup_aff385a92d6949c49ed0acdf9a548dad.setContent(html_a79515eb5f02424f8c180b01a098d36b);
+        
+
+        marker_9b3393009d8b43f3a992f3479b0cb11f.bindPopup(popup_aff385a92d6949c49ed0acdf9a548dad)
+        ;
+
+        
+    
+    
+            var marker_bb643eaca3354bb5b22c8ceecd615b3f = L.marker(
+                [63.26224636, 10.35593544],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_d03aa47c13af475a9726490e341c71c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bb643eaca3354bb5b22c8ceecd615b3f.setIcon(icon_d03aa47c13af475a9726490e341c71c7);
+        
+    
+        var popup_ee6308ed54cd4269bbe5fd1ff788d51c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d15a669bbc8f44d3bdf3b6b0cbb2d5aa = $(`<div id="html_d15a669bbc8f44d3bdf3b6b0cbb2d5aa" style="width: 100.0%; height: 100.0%;"><h4>Vassfjellet - IMT Topps 2018</h4>    <h6>The elevation is <i>706.3 meters</i></h6>   The terrain is Open area.   <h6>Peaked? : No</h6></div>`)[0];
+            popup_ee6308ed54cd4269bbe5fd1ff788d51c.setContent(html_d15a669bbc8f44d3bdf3b6b0cbb2d5aa);
+        
+
+        marker_bb643eaca3354bb5b22c8ceecd615b3f.bindPopup(popup_ee6308ed54cd4269bbe5fd1ff788d51c)
+        ;
+
+        
+    
+    
+            var marker_135cfee4a6054961aba6ddff37317fc6 = L.marker(
+                [63.4570346, 10.44846861],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_63622678e4fc4d11af43f1dc4a2e3add = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_135cfee4a6054961aba6ddff37317fc6.setIcon(icon_63622678e4fc4d11af43f1dc4a2e3add);
+        
+    
+        var popup_35a73ce750384a85b4b438788db777b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5b1004bd7ec4492b061d1a89d656327 = $(`<div id="html_d5b1004bd7ec4492b061d1a89d656327" style="width: 100.0%; height: 100.0%;"><h4>Østmarkneset - IMT Topps 2017</h4>    <h6>The elevation is <i>6.2 meters</i></h6>   The terrain is Open area.   <h6>Peaked? : Yes</h6></div>`)[0];
+            popup_35a73ce750384a85b4b438788db777b9.setContent(html_d5b1004bd7ec4492b061d1a89d656327);
+        
+
+        marker_135cfee4a6054961aba6ddff37317fc6.bindPopup(popup_35a73ce750384a85b4b438788db777b9)
+        ;
+
+        
+    
+    
+            var marker_ca7f273f7f14458e9a6c837355f28224 = L.marker(
+                [63.44744494, 10.42620999],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_87c54edb54e44a87b16254d77495ca20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ca7f273f7f14458e9a6c837355f28224.setIcon(icon_87c54edb54e44a87b16254d77495ca20);
+        
+    
+        var popup_9a85fd20250c4ad9b5f6a6b22527ec36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d31b6e8305bf43d0b19925447dae1c07 = $(`<div id="html_d31b6e8305bf43d0b19925447dae1c07" style="width: 100.0%; height: 100.0%;"><h4>Ladehammeren - IMT Topps 2017</h4>    <h6>The elevation is <i>68.1 meters</i></h6>   The terrain is Forest area.   <h6>Peaked? : Yes</h6></div>`)[0];
+            popup_9a85fd20250c4ad9b5f6a6b22527ec36.setContent(html_d31b6e8305bf43d0b19925447dae1c07);
+        
+
+        marker_ca7f273f7f14458e9a6c837355f28224.bindPopup(popup_9a85fd20250c4ad9b5f6a6b22527ec36)
+        ;
+
+        
+    
+    
+            var marker_ba637e0fa082498087f39300a1812895 = L.marker(
+                [63.43701167, 10.33460437],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_46ce615969f94a20bf431d14ecdc422a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ba637e0fa082498087f39300a1812895.setIcon(icon_46ce615969f94a20bf431d14ecdc422a);
+        
+    
+        var popup_625be32a17754b38a013c56735f00f0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_feebefbc67134874ad34b58f280beea4 = $(`<div id="html_feebefbc67134874ad34b58f280beea4" style="width: 100.0%; height: 100.0%;"><h4>Våttakammen - IMT Topps 2017</h4>    <h6>The elevation is <i>285.5 meters</i></h6>   The terrain is Forest area.   <h6>Peaked? : Yes</h6></div>`)[0];
+            popup_625be32a17754b38a013c56735f00f0e.setContent(html_feebefbc67134874ad34b58f280beea4);
+        
+
+        marker_ba637e0fa082498087f39300a1812895.bindPopup(popup_625be32a17754b38a013c56735f00f0e)
+        ;
+
+        
+    
+    
+            var marker_ceca7163dbc44e389c924483c6d33e56 = L.marker(
+                [63.43343948, 10.3044099],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_0de0e805bfbd48b3a611ab49c92508d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ceca7163dbc44e389c924483c6d33e56.setIcon(icon_0de0e805bfbd48b3a611ab49c92508d8);
+        
+    
+        var popup_0953617e82c546c391fdfd0d42b5f807 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e5f0910a971479988e31fb8d8385961 = $(`<div id="html_1e5f0910a971479988e31fb8d8385961" style="width: 100.0%; height: 100.0%;"><h4>Geitfjellet - IMT Topps 2017</h4>    <h6>The elevation is <i>406.5 meters</i></h6>   The terrain is Open area.   <h6>Peaked? : Yes</h6></div>`)[0];
+            popup_0953617e82c546c391fdfd0d42b5f807.setContent(html_1e5f0910a971479988e31fb8d8385961);
+        
+
+        marker_ceca7163dbc44e389c924483c6d33e56.bindPopup(popup_0953617e82c546c391fdfd0d42b5f807)
+        ;
+
+        
+    
+    
+            var marker_22448cc690b24af6b386a6adcc7e0932 = L.marker(
+                [63.40216734, 10.20096534],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_dd9f3237076a410f9bd629531d812489 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_22448cc690b24af6b386a6adcc7e0932.setIcon(icon_dd9f3237076a410f9bd629531d812489);
+        
+    
+        var popup_859ae5ead37c4f18909bc49b5f01baa6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7897f0436328425da9d03cf21ebe73fc = $(`<div id="html_7897f0436328425da9d03cf21ebe73fc" style="width: 100.0%; height: 100.0%;"><h4>Storheia - IMT Topps 2017</h4>    <h6>The elevation is <i>565.3 meters</i></h6>   The terrain is Open area.   <h6>Peaked? : Yes</h6></div>`)[0];
+            popup_859ae5ead37c4f18909bc49b5f01baa6.setContent(html_7897f0436328425da9d03cf21ebe73fc);
+        
+
+        marker_22448cc690b24af6b386a6adcc7e0932.bindPopup(popup_859ae5ead37c4f18909bc49b5f01baa6)
+        ;
+
+        
+    
+    
+            var marker_72ad30aee4ef48a3b964a714596872f7 = L.marker(
+                [63.43711174, 10.24592373],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_e43886a432c347b2b672b19a2c7386b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_72ad30aee4ef48a3b964a714596872f7.setIcon(icon_e43886a432c347b2b672b19a2c7386b6);
+        
+    
+        var popup_882c8a96fd1442ec9d571a1b97e75f9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_717a90f0519e438bb0eafdd9938cf7f9 = $(`<div id="html_717a90f0519e438bb0eafdd9938cf7f9" style="width: 100.0%; height: 100.0%;"><h4>Stadsheia - IMT Topps 2017</h4>    <h6>The elevation is <i>461.1 meters</i></h6>   The terrain is Marshy area.   <h6>Peaked? : Yes</h6></div>`)[0];
+            popup_882c8a96fd1442ec9d571a1b97e75f9b.setContent(html_717a90f0519e438bb0eafdd9938cf7f9);
+        
+
+        marker_72ad30aee4ef48a3b964a714596872f7.bindPopup(popup_882c8a96fd1442ec9d571a1b97e75f9b)
+        ;
+
+        
+    
+    
+            var marker_a8424446917a432dad0c31dc2938ebd9 = L.marker(
+                [63.38933101, 10.49145172],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_b1730a8be91e42b09c04a7f16196bf8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a8424446917a432dad0c31dc2938ebd9.setIcon(icon_b1730a8be91e42b09c04a7f16196bf8f);
+        
+    
+        var popup_06bc7fa3683844b99a0d5c87d4639b35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_014fccd26efe4ba2aa9a1f505cc529be = $(`<div id="html_014fccd26efe4ba2aa9a1f505cc529be" style="width: 100.0%; height: 100.0%;"><h4>Månen - IMT Topps 2017</h4>    <h6>The elevation is <i>347.2 meters</i></h6>   The terrain is Forest area.   <h6>Peaked? : Yes</h6></div>`)[0];
+            popup_06bc7fa3683844b99a0d5c87d4639b35.setContent(html_014fccd26efe4ba2aa9a1f505cc529be);
+        
+
+        marker_a8424446917a432dad0c31dc2938ebd9.bindPopup(popup_06bc7fa3683844b99a0d5c87d4639b35)
+        ;
+
+        
+    
+    
+            var marker_444fdd6a94b04eab96a770a0636dbd8d = L.marker(
+                [63.37145324, 10.48006282],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_f49521e5e5a0417b9bd95962981a3e70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_444fdd6a94b04eab96a770a0636dbd8d.setIcon(icon_f49521e5e5a0417b9bd95962981a3e70);
+        
+    
+        var popup_b4ece636c8c9483392c6b72fe3ee121d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_709b9e2808f84cbb992dfdc3efeb0605 = $(`<div id="html_709b9e2808f84cbb992dfdc3efeb0605" style="width: 100.0%; height: 100.0%;"><h4>Liaåsen - IMT Topps 2017</h4>    <h6>The elevation is <i>421.0 meters</i></h6>   The terrain is Forest area.   <h6>Peaked? : Yes</h6></div>`)[0];
+            popup_b4ece636c8c9483392c6b72fe3ee121d.setContent(html_709b9e2808f84cbb992dfdc3efeb0605);
+        
+
+        marker_444fdd6a94b04eab96a770a0636dbd8d.bindPopup(popup_b4ece636c8c9483392c6b72fe3ee121d)
+        ;
+
+        
+    
+    
+            var marker_4de116e5c02b466689c59a45a0dd3289 = L.marker(
+                [63.40925318, 10.58334624],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_c994b5cc08ba4468956b2f8be29dee27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4de116e5c02b466689c59a45a0dd3289.setIcon(icon_c994b5cc08ba4468956b2f8be29dee27);
+        
+    
+        var popup_bbb8bd48a51f44ca8f3fe66a7b66f1c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25a72d97cb074ace9f2522ec09f79853 = $(`<div id="html_25a72d97cb074ace9f2522ec09f79853" style="width: 100.0%; height: 100.0%;"><h4>Solemsvåttan - IMT Topps 2017</h4>    <h6>The elevation is <i>422.4 meters</i></h6>   The terrain is Forest area.   <h6>Peaked? : Yes</h6></div>`)[0];
+            popup_bbb8bd48a51f44ca8f3fe66a7b66f1c9.setContent(html_25a72d97cb074ace9f2522ec09f79853);
+        
+
+        marker_4de116e5c02b466689c59a45a0dd3289.bindPopup(popup_bbb8bd48a51f44ca8f3fe66a7b66f1c9)
+        ;
+
+        
+    
+    
+            var marker_d3d3daa4989d4109b8b4afcc9cb1ddaa = L.marker(
+                [63.30727264, 10.54725453],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_94dba99be9b840b5a96760f5dd543de1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d3d3daa4989d4109b8b4afcc9cb1ddaa.setIcon(icon_94dba99be9b840b5a96760f5dd543de1);
+        
+    
+        var popup_5c002519f89541df947b7aeb3325ff3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1513e808830b47e1bc8d666545618374 = $(`<div id="html_1513e808830b47e1bc8d666545618374" style="width: 100.0%; height: 100.0%;"><h4>Gullsiberget - IMT Topps 2017</h4>    <h6>The elevation is <i>535.0 meters</i></h6>   The terrain is Forest area.   <h6>Peaked? : Yes</h6></div>`)[0];
+            popup_5c002519f89541df947b7aeb3325ff3c.setContent(html_1513e808830b47e1bc8d666545618374);
+        
+
+        marker_d3d3daa4989d4109b8b4afcc9cb1ddaa.bindPopup(popup_5c002519f89541df947b7aeb3325ff3c)
+        ;
+
+        
+    
+    
+            var marker_97c0807d42a4454fbd7a0b1d49168774 = L.marker(
+                [63.567834206960065, 10.30977268104145],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_c47f477bb6a241b5979917921724345c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_97c0807d42a4454fbd7a0b1d49168774.setIcon(icon_c47f477bb6a241b5979917921724345c);
+        
+    
+        var popup_d65f11e707474959a0c70b4dc33c2f6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_375442f0e6e2452699993fee6534607c = $(`<div id="html_375442f0e6e2452699993fee6534607c" style="width: 100.0%; height: 100.0%;"><h4>Munken - IMT Topps 2020</h4>    <h6>The elevation is <i>517.8 meters</i></h6>   The terrain is Open area.   <h6>Peaked? : No</h6></div>`)[0];
+            popup_d65f11e707474959a0c70b4dc33c2f6f.setContent(html_375442f0e6e2452699993fee6534607c);
+        
+
+        marker_97c0807d42a4454fbd7a0b1d49168774.bindPopup(popup_d65f11e707474959a0c70b4dc33c2f6f)
+        ;
+
+        
+    
+    
+            var marker_3d5f686823974ce2bbe6a7a98fd8e62c = L.marker(
+                [63.43488549823029, 10.252124555572623],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_2b14a4cd3a0d4bcdb3e94d0c037a500c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3d5f686823974ce2bbe6a7a98fd8e62c.setIcon(icon_2b14a4cd3a0d4bcdb3e94d0c037a500c);
+        
+    
+        var popup_e44e03c598594fdba33b7ef32f1e8094 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e06af5e0592c4c44b74dad796b36d18c = $(`<div id="html_e06af5e0592c4c44b74dad796b36d18c" style="width: 100.0%; height: 100.0%;"><h4>Herbernsheia - IMT Topps 2020</h4>    <h6>The elevation is <i>456.5 meters</i></h6>   The terrain is Open area.   <h6>Peaked? : Yes</h6></div>`)[0];
+            popup_e44e03c598594fdba33b7ef32f1e8094.setContent(html_e06af5e0592c4c44b74dad796b36d18c);
+        
+
+        marker_3d5f686823974ce2bbe6a7a98fd8e62c.bindPopup(popup_e44e03c598594fdba33b7ef32f1e8094)
+        ;
+
+        
+    
+    
+            var marker_1dc8012da3ad4f4c9e74e18ba96e624c = L.marker(
+                [63.437093864858596, 10.245926698528123],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_10d1e157c41948fc9f97c00fbeef398e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1dc8012da3ad4f4c9e74e18ba96e624c.setIcon(icon_10d1e157c41948fc9f97c00fbeef398e);
+        
+    
+        var popup_aed287d566dd447780d158a71b6266f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb89af3913ba479990b8145081d46651 = $(`<div id="html_eb89af3913ba479990b8145081d46651" style="width: 100.0%; height: 100.0%;"><h4>Stadsheia - IMT Topps 2020</h4>    <h6>The elevation is <i>461.1 meters</i></h6>   The terrain is Marshy area.   <h6>Peaked? : Yes</h6></div>`)[0];
+            popup_aed287d566dd447780d158a71b6266f9.setContent(html_eb89af3913ba479990b8145081d46651);
+        
+
+        marker_1dc8012da3ad4f4c9e74e18ba96e624c.bindPopup(popup_aed287d566dd447780d158a71b6266f9)
+        ;
+
+        
+    
+    
+            var marker_ebefc0d8162e470889d7816a7e555bd7 = L.marker(
+                [63.45008764015429, 10.268792174455012],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_5bd88641993d4e509c1a2a4141a316b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ebefc0d8162e470889d7816a7e555bd7.setIcon(icon_5bd88641993d4e509c1a2a4141a316b5);
+        
+    
+        var popup_2f90c19989c34bdca3ff5369cd686b74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_142495c6b1234f9cbc25e5adc560c585 = $(`<div id="html_142495c6b1234f9cbc25e5adc560c585" style="width: 100.0%; height: 100.0%;"><h4>Olavsspranget - IMT Topps 2020</h4>    <h6>The elevation is <i>217.5 meters</i></h6>   The terrain is Forest area.   <h6>Peaked? : No</h6></div>`)[0];
+            popup_2f90c19989c34bdca3ff5369cd686b74.setContent(html_142495c6b1234f9cbc25e5adc560c585);
+        
+
+        marker_ebefc0d8162e470889d7816a7e555bd7.bindPopup(popup_2f90c19989c34bdca3ff5369cd686b74)
+        ;
+
+        
+    
+    
+            var marker_83d5602dcec8407b88639944d6c4b38e = L.marker(
+                [63.412610181431674, 10.19082793812416],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_91f0beba3d55481e93e7cc0bdeb00b64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_83d5602dcec8407b88639944d6c4b38e.setIcon(icon_91f0beba3d55481e93e7cc0bdeb00b64);
+        
+    
+        var popup_96ff21f0b9924e1ca143ea4bf54fcea1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f27f55d20aee4a93a32c124d81d439c2 = $(`<div id="html_f27f55d20aee4a93a32c124d81d439c2" style="width: 100.0%; height: 100.0%;"><h4>Bosbergheia - IMT Topps 2020</h4>    <h6>The elevation is <i>538.8 meters</i></h6>   The terrain is Open area.   <h6>Peaked? : Yes</h6></div>`)[0];
+            popup_96ff21f0b9924e1ca143ea4bf54fcea1.setContent(html_f27f55d20aee4a93a32c124d81d439c2);
+        
+
+        marker_83d5602dcec8407b88639944d6c4b38e.bindPopup(popup_96ff21f0b9924e1ca143ea4bf54fcea1)
+        ;
+
+        
+    
+    
+            var marker_4cbf6b51bb564002b0c090dabf89e394 = L.marker(
+                [63.26198236162362, 10.356541208238284],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_d11d76bc782649bd88ab77b6d9e6050d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4cbf6b51bb564002b0c090dabf89e394.setIcon(icon_d11d76bc782649bd88ab77b6d9e6050d);
+        
+    
+        var popup_c61dfec912d2449f827d610cb4b48078 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e360d51c5c6e4a3aa233ecd41a34b5c9 = $(`<div id="html_e360d51c5c6e4a3aa233ecd41a34b5c9" style="width: 100.0%; height: 100.0%;"><h4>Vassfjellet - IMT Topps 2020</h4>    <h6>The elevation is <i>709.6 meters</i></h6>   The terrain is Open area.   <h6>Peaked? : No</h6></div>`)[0];
+            popup_c61dfec912d2449f827d610cb4b48078.setContent(html_e360d51c5c6e4a3aa233ecd41a34b5c9);
+        
+
+        marker_4cbf6b51bb564002b0c090dabf89e394.bindPopup(popup_c61dfec912d2449f827d610cb4b48078)
+        ;
+
+        
+    
+    
+            var marker_65b57eb2521749f2b8317bb0c16caad0 = L.marker(
+                [63.174306666580925, 9.919898671752067],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_10bf164bd86d44029f6f3913eca7ee40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_65b57eb2521749f2b8317bb0c16caad0.setIcon(icon_10bf164bd86d44029f6f3913eca7ee40);
+        
+    
+        var popup_896f028e1c4a40d9bd44a16b64d79379 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f6c1bb85abb4e4f8225e49fc0de35f9 = $(`<div id="html_3f6c1bb85abb4e4f8225e49fc0de35f9" style="width: 100.0%; height: 100.0%;"><h4>Ølshøgda - IMT Topps 2020</h4>    <h6>The elevation is <i>518.9 meters</i></h6>   The terrain is Forest area.   <h6>Peaked? : No</h6></div>`)[0];
+            popup_896f028e1c4a40d9bd44a16b64d79379.setContent(html_3f6c1bb85abb4e4f8225e49fc0de35f9);
+        
+
+        marker_65b57eb2521749f2b8317bb0c16caad0.bindPopup(popup_896f028e1c4a40d9bd44a16b64d79379)
+        ;
+
+        
+    
+    
+            var marker_9145d706fb2348a4803c7edd8278bb69 = L.marker(
+                [63.14370816756612, 10.718627943214699],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_4b7546b57e9b463c936cda7d7ac39ebd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9145d706fb2348a4803c7edd8278bb69.setIcon(icon_4b7546b57e9b463c936cda7d7ac39ebd);
+        
+    
+        var popup_df0be9b4f063429ead80b1ee91fb8082 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bb0eff907194471a909faa7f263797e = $(`<div id="html_1bb0eff907194471a909faa7f263797e" style="width: 100.0%; height: 100.0%;"><h4>Rensfjellet - IMT Topps 2020</h4>    <h6>The elevation is <i>930.5 meters</i></h6>   The terrain is Open area.   <h6>Peaked? : No</h6></div>`)[0];
+            popup_df0be9b4f063429ead80b1ee91fb8082.setContent(html_1bb0eff907194471a909faa7f263797e);
+        
+
+        marker_9145d706fb2348a4803c7edd8278bb69.bindPopup(popup_df0be9b4f063429ead80b1ee91fb8082)
+        ;
+
+        
+    
+    
+            var marker_7513982a358c47e68bd72776fc5e4285 = L.marker(
+                [63.45262894791952, 10.437622658196881],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_bb4a05580f6243f3865e75dc36093f25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7513982a358c47e68bd72776fc5e4285.setIcon(icon_bb4a05580f6243f3865e75dc36093f25);
+        
+    
+        var popup_10c148009fb54306b3728b8dffcdbfa2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_692603c7dc57450f898c9f37b08ce462 = $(`<div id="html_692603c7dc57450f898c9f37b08ce462" style="width: 100.0%; height: 100.0%;"><h4>Kjerringberga - IMT Topps 2020</h4>    <h6>The elevation is <i>36.6 meters</i></h6>   The terrain is Forest area.   <h6>Peaked? : No</h6></div>`)[0];
+            popup_10c148009fb54306b3728b8dffcdbfa2.setContent(html_692603c7dc57450f898c9f37b08ce462);
+        
+
+        marker_7513982a358c47e68bd72776fc5e4285.bindPopup(popup_10c148009fb54306b3728b8dffcdbfa2)
+        ;
+
+        
+    
+    
+            var marker_2c01d0f630644632af585eeb86bc737e = L.marker(
+                [63.431757650125256, 10.432367570318354],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_8385f305d7774da3a926d46e3fd06070 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2c01d0f630644632af585eeb86bc737e.setIcon(icon_8385f305d7774da3a926d46e3fd06070);
+        
+    
+        var popup_4e02eddfe3de470c813eb75e99904808 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_408b139588e8498385e8d23042916f8e = $(`<div id="html_408b139588e8498385e8d23042916f8e" style="width: 100.0%; height: 100.0%;"><h4>Kuhaugen - IMT Topps 2020</h4>    <h6>The elevation is <i>120.6 meters</i></h6>   The terrain is Forest area.   <h6>Peaked? : No</h6></div>`)[0];
+            popup_4e02eddfe3de470c813eb75e99904808.setContent(html_408b139588e8498385e8d23042916f8e);
+        
+
+        marker_2c01d0f630644632af585eeb86bc737e.bindPopup(popup_4e02eddfe3de470c813eb75e99904808)
+        ;
+
+        
+    
+    
+            var marker_7e7fe00407a242e2ad57757f4935d0e6 = L.marker(
+                [63.42050981825646, 10.351267228130904],
+                {}
+            ).addTo(map_8d409560ccdc493d938fd6b82fcc890f);
+        
+    
+            var icon_44f3c65de582479bb9dca27e50122527 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7e7fe00407a242e2ad57757f4935d0e6.setIcon(icon_44f3c65de582479bb9dca27e50122527);
+        
+    
+        var popup_841d26b32faa43c488a643d318fdf652 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1b1a75e9946438e89869ae3716d3000 = $(`<div id="html_c1b1a75e9946438e89869ae3716d3000" style="width: 100.0%; height: 100.0%;"><h4>Blyberget - IMT Topps 2020</h4>    <h6>The elevation is <i>193.7 meters</i></h6>   The terrain is Forest area.   <h6>Peaked? : No</h6></div>`)[0];
+            popup_841d26b32faa43c488a643d318fdf652.setContent(html_c1b1a75e9946438e89869ae3716d3000);
+        
+
+        marker_7e7fe00407a242e2ad57757f4935d0e6.bindPopup(popup_841d26b32faa43c488a643d318fdf652)
+        ;
+
+        
+    
+</script>
